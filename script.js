@@ -322,7 +322,7 @@ function drawJewelry(state, ctx) {
 
   /* Earrings */
   if (earringImg) {
-    const ew = earDist * 0.24;
+    const ew = earDist * 0.30;
     const eh = (earringImg.height / earringImg.width) * ew;
 
     ctx.drawImage(earringImg, leftEar.x - ew/2,  leftEar.y - eh/2,  ew, eh);
